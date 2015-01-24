@@ -6,7 +6,5 @@ public class Data : MonoBehaviour {
 	public GameStates GameState;
 	public GameObject Player;
 	public int PlayerPowerCubes = 0;
-	void Awake() {
-		DontDestroyOnLoad(transform.gameObject);
-	}
+	public AudioManager audioManager;
 }

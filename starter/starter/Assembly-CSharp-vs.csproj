@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\AudioManager.cs" />
      <Compile Include="Assets\scripts\Data.cs" />
      <Compile Include="Assets\scripts\DummyPlayerBehavior.cs" />
      <Compile Include="Assets\scripts\GameStates.cs" />
@@ -53,8 +54,9 @@
      <Compile Include="Assets\scripts\Menu.cs" />
      <Compile Include="Assets\scripts\PowerCube.cs" />
      <Compile Include="Assets\scripts\RoomBehavior.cs" />
+     <Compile Include="Assets\scripts\TimeLeft.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/xeratol/Dropbox/Unity3DProjects/We-re-crashing-now-what/starter/starter/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/chris/workspace/We-re-crashing-now-what/starter/starter/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>

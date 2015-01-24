@@ -27,6 +27,9 @@ public class Menu : MonoBehaviour {
 		case GameStates.Paused:
 			PauseMenu();
 			break;
+		case GameStates.GameOver:
+			GameOverMenu();
+			break;
 		}
 		
 	}
@@ -34,6 +37,26 @@ public class Menu : MonoBehaviour {
 		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Start")) {
 			StartGame();
+		}
+	}
+	void GameOverMenu() {
+		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
+		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "Congratulations");
+		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
+			Application.Quit();
+		}
+		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 200 , 100, 50), "Restart")) {
+			ReStartGame();
+		}
+	}
+	void WinMenu() {
+		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
+		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "GAME OVER");
+		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
+			Application.Quit();
+		}
+		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 200 , 100, 50), "Retry")) {
+			ReStartGame();
 		}
 	}
 	void PauseMenu() {
@@ -57,6 +80,12 @@ public class Menu : MonoBehaviour {
 	void StartGame() {
 		Time.timeScale = 1;
 		data.GameState = GameStates.Running;
+		//TODO: Send message
+	}
+	void ReStartGame() {
+		Time.timeScale = 1;
+		data.GameState = GameStates.Running;
+		Application.LoadLevel(Application.loadedLevel);
 		//TODO: Send message
 	}
 }
