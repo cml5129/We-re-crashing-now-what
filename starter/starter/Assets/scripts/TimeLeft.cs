@@ -7,6 +7,7 @@ public class TimeLeft : MonoBehaviour {
 	public Data data;
 	public float[] Queues;
 	public AudioClip[] AudioQueue;
+	public AudioClip StandardAudio;
 	public bool[] QueueReached;
 	public bool hud;
 	public string text;
@@ -22,9 +23,12 @@ public class TimeLeft : MonoBehaviour {
 			for(int i = 0; i < Queues.Length; i++) {
 				if (Queues[i] > TotalTimeLeft && !QueueReached[i]) {
 					Debug.Log("PLay audio queue:"+i);
-					data.audioManager.PlayAudio(AudioQueue[i]);
+					data.audioManager.PlayAudio(StandardAudio,AudioQueue[i]);
 					QueueReached[i] = true;
 				}
+			}
+			if (TotalTimeLeft <= 0 ) {
+				data.GameOver();
 			}
 		}
 	}void OnGUI() {
