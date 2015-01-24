@@ -7,4 +7,13 @@ public class Data : MonoBehaviour {
 	public GameObject Player;
 	public int PlayerPowerCubes = 0;
 	public AudioManager audioManager;
+
+	public void GameOver() {
+		Time.timeScale = 0;
+		GameState = GameStates.GameOver;
+	}
+	public void Win() {
+		Time.timeScale = 0;
+		GameState = GameStates.WON;
+	}
 }

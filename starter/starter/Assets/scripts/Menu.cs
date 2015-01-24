@@ -30,6 +30,9 @@ public class Menu : MonoBehaviour {
 		case GameStates.GameOver:
 			GameOverMenu();
 			break;
+		case GameStates.WON:
+			GameOverMenu();
+			break;
 		}
 		
 	}
@@ -41,7 +44,7 @@ public class Menu : MonoBehaviour {
 	}
 	void GameOverMenu() {
 		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
-		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "Congratulations");
+		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "Game Over");
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
 			Application.Quit();
 		}
@@ -51,7 +54,7 @@ public class Menu : MonoBehaviour {
 	}
 	void WinMenu() {
 		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
-		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "GAME OVER");
+		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "Congratulations You Survived");
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
 			Application.Quit();
 		}

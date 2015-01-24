@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\AmbianceController.cs" />
+     <Compile Include="Assets\scripts\AudioClips.cs" />
      <Compile Include="Assets\scripts\AudioManager.cs" />
      <Compile Include="Assets\scripts\Data.cs" />
      <Compile Include="Assets\scripts\DummyPlayerBehavior.cs" />
