@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 074a879b1ba314209b98baf46b82c49f
+guid: c4a9d9b9902c1461198495bde6bf7d3d
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cube
+    100000: Cube
+    100002: dOOR_000
     100004: dOOR_001
-    100006: dOOR_002
-    400000: //RootNode
-    400002: Cube
+    100006: //RootNode
+    400000: Cube
+    400002: dOOR_000
     400004: dOOR_001
-    400006: dOOR_002
+    400006: //RootNode
     2300000: Cube
-    2300002: dOOR_001
-    2300004: dOOR_002
+    2300002: dOOR_000
+    2300004: dOOR_001
     3300000: Cube
-    3300002: dOOR_001
-    3300004: dOOR_002
-    4300000: dOOR_002
-    4300002: dOOR_001
+    3300002: dOOR_000
+    3300004: dOOR_001
+    4300000: dOOR_001
+    4300002: dOOR_000
     4300004: Cube
     6400000: Cube
-    6400002: dOOR_001
-    6400004: dOOR_002
+    6400002: dOOR_000
+    6400004: dOOR_001
     7400000: Default Take
     9500000: //RootNode
   materials:
