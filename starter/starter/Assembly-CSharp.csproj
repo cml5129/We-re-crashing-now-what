@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\Data.cs" />
+     <Compile Include="Assets\scripts\DummyPlayerBehavior.cs" />
      <Compile Include="Assets\scripts\GameStates.cs" />
      <Compile Include="Assets\scripts\HandPowerCube.cs" />
      <Compile Include="Assets\scripts\Menu.cs" />
      <Compile Include="Assets\scripts\PowerCube.cs" />
+     <Compile Include="Assets\scripts\RoomBehavior.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
