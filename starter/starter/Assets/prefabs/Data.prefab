@@ -1,59 +1,61 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &161092
+--- !u!1 &172896
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 461092}
-  - 114: {fileID: 11461092}
+  - 4: {fileID: 472896}
+  - 114: {fileID: 11472898}
+  - 114: {fileID: 11472896}
   m_Layer: 0
-  m_Name: OxygenTimer
+  m_Name: Data
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &461092
+--- !u!4 &472896
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161092}
+  m_GameObject: {fileID: 172896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11461092
+--- !u!114 &11472896
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161092}
+  m_GameObject: {fileID: 172896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e65694719b005482cb5035a7616d1c3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d6d1c8c2b0664801854b9a5471bd70c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalTimeLeft: 190
-  Pause: 0
-  data: {fileID: 0}
-  Queues:
-  - 180
-  - 120
-  - 60
-  AudioQueue:
-  - {fileID: 8300000, guid: faf892850a7064455bca9fc06b8a515b, type: 3}
-  - {fileID: 8300000, guid: 04c3720d6808944c58fa51103214453c, type: 3}
-  - {fileID: 8300000, guid: 966a769ce6add429693ccaf634806b4b, type: 3}
-  StandardAudio: {fileID: 8300000, guid: dc6d81e30eaff4e46a2b4bb5e911c3be, type: 3}
-  QueueReached: 000000
-  hud: 1
-  text: Impact
+  data: {fileID: 11472898}
+--- !u!114 &11472898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbf63a3ecd4348cb8f96f4f960e57bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameState: 1
+  Player: {fileID: 0}
+  PlayerPowerCubes: 1
+  audioManager: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -63,6 +65,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 161092}
+  m_RootGameObject: {fileID: 172896}
   m_IsPrefabParent: 1
   m_IsExploded: 1

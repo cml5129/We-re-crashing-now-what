@@ -3,6 +3,7 @@ using System.Collections;
 
 public class AudioManager : MonoBehaviour {
 	AudioSource source;
+	public GameObject AudioSources;
 	public Queue AudioQueue;
 	public Data data;
 
@@ -18,7 +19,7 @@ public class AudioManager : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		source = GetComponent<AudioSource>();
+		source = AudioSources.GetComponent<AudioSource>();
 		AudioQueue = new Queue();
 	}
 	
