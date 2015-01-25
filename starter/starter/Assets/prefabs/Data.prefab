@@ -54,8 +54,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameState: 1
   Player: {fileID: 0}
-  PlayerPowerCubes: 1
+  PlayerPowerCubes: 0
   audioManager: {fileID: 0}
+  WinningPowerStations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
