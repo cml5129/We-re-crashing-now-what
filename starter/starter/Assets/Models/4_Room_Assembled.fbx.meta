@@ -504,6 +504,8 @@ ModelImporter:
     100996: Storage_Room_Wall_2
     100998: Storage_Room_Wall_3
     101000: Storage_Room_Wall_4
+    101002: Map_Screen
+    101004: polySurface2
     400000: //RootNode
     400002: engine
     400004: engine_2_Map_Door
@@ -1005,6 +1007,8 @@ ModelImporter:
     400996: Storage_Room_Wall_2
     400998: Storage_Room_Wall_3
     401000: Storage_Room_Wall_4
+    401002: Map_Screen
+    401004: polySurface2
     2300000: engine
     2300002: engine_2_Map_Door
     2300004: engine_2_Map_Door_panel_A
@@ -1495,6 +1499,8 @@ ModelImporter:
     2300974: Storage_Room_Wall_2
     2300976: Storage_Room_Wall_3
     2300978: Storage_Room_Wall_4
+    2300980: Map_Screen
+    2300982: polySurface2
     3300000: engine
     3300002: engine_2_Map_Door
     3300004: engine_2_Map_Door_panel_A
@@ -1985,6 +1991,8 @@ ModelImporter:
     3300974: Storage_Room_Wall_2
     3300976: Storage_Room_Wall_3
     3300978: Storage_Room_Wall_4
+    3300980: Map_Screen
+    3300982: polySurface2
     4300000: Start_Room_Pipe_4
     4300002: Start_Room_Pipe_1
     4300004: Start_Room_Pipe_2
@@ -2475,6 +2483,8 @@ ModelImporter:
     4300974: Navigation_Room_Container_3
     4300976: Navigation_Container
     4300978: Navigation_Floor
+    4300980: Map_Screen
+    4300982: polySurface2
     9500000: //RootNode
   materials:
     importMaterials: 1

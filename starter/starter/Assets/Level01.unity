@@ -6755,7 +6755,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11403982, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: NeedsPowerCubes
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
@@ -46640,7 +46640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 0}
   HasPowerCubes: 2
-  NeedsPowerCubes: 0
+  NeedsPowerCubes: 10
   GainedCube: {fileID: 155702, guid: 7b726ac7bb8ff4ba2b442caee68d508a, type: 2}
 --- !u!65 &1968589841
 BoxCollider:

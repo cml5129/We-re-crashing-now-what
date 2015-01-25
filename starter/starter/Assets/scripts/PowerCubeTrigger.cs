@@ -12,7 +12,7 @@ public class PowerCubeTrigger : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		data = GameObject.Find("Data").GetComponent<Data>();
-		source = GetComponent<AudioSource>();
+		source = this.gameObject.AddComponent<AudioSource>();
 		renderer = GetComponent<MeshRenderer>();
 	}
 	
