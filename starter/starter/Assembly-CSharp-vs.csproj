@@ -56,9 +56,11 @@
      <Compile Include="Assets\scripts\GameStates.cs" />
      <Compile Include="Assets\scripts\HandPowerCube.cs" />
      <Compile Include="Assets\scripts\Menu.cs" />
+     <Compile Include="Assets\scripts\MoveObjectFollowingPath.cs" />
      <Compile Include="Assets\scripts\PowerCube.cs" />
      <Compile Include="Assets\scripts\PowerCubeTrigger.cs" />
      <Compile Include="Assets\scripts\QueueAudio.cs" />
+     <Compile Include="Assets\scripts\RobotController.cs" />
      <Compile Include="Assets\scripts\RoomBehavior.cs" />
      <Compile Include="Assets\scripts\RotateAlongX.cs" />
      <Compile Include="Assets\scripts\TimeLeft.cs" />
