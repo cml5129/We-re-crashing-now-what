@@ -39,19 +39,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e65694719b005482cb5035a7616d1c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalTimeLeft: 190
+  TotalTimeLeft: 360
   Pause: 0
   data: {fileID: 0}
   Queues:
+  - 300
+  - 240
   - 180
   - 120
   - 60
   AudioQueue:
+  - {fileID: 8300000, guid: b3eec238bf2b542ac9e7c0a956887181, type: 3}
+  - {fileID: 8300000, guid: acbc68e28d34e4d0e864cd91d99abdc4, type: 3}
   - {fileID: 8300000, guid: faf892850a7064455bca9fc06b8a515b, type: 3}
   - {fileID: 8300000, guid: 04c3720d6808944c58fa51103214453c, type: 3}
   - {fileID: 8300000, guid: 966a769ce6add429693ccaf634806b4b, type: 3}
   StandardAudio: {fileID: 8300000, guid: dc6d81e30eaff4e46a2b4bb5e911c3be, type: 3}
-  QueueReached: 000000
+  QueueReached: 0000000000
   hud: 1
   text: Impact
 --- !u!1001 &100100000
