@@ -58,6 +58,7 @@
      <Compile Include="Assets\scripts\Menu.cs" />
      <Compile Include="Assets\scripts\PowerCube.cs" />
      <Compile Include="Assets\scripts\PowerCubeTrigger.cs" />
+     <Compile Include="Assets\scripts\QueueAudio.cs" />
      <Compile Include="Assets\scripts\RoomBehavior.cs" />
      <Compile Include="Assets\scripts\RotateAlongX.cs" />
      <Compile Include="Assets\scripts\TimeLeft.cs" />

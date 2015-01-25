@@ -27,9 +27,11 @@ public class AmbianceController : MonoBehaviour {
 	}
 
 	public void EngineTurnedOn() {		
-		source.clip = EngineOffToOn;
-		source.loop = false;
-		source.Play();
+		if(EngineOffToOn != null) {
+			source.clip = EngineOffToOn;
+			source.loop = false;
+			source.Play();
+		}
 		AudioQueue.Enqueue(EngineOn);
 	}
 	public void EngineTurnedOff() {		
