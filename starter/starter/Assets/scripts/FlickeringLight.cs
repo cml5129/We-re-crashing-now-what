@@ -18,8 +18,8 @@ public class FlickeringLight : MonoBehaviour {
 
 			int count = Random.Range (1,5);
 			while (count > 0) {
-				lightComponent.intensity = Random.Range (0.1f, 1) * maxLightIntensity;
-				yield return new WaitForSeconds(Random.Range (0.01f,0.3f) );
+				lightComponent.intensity = Random.Range (0.5f, 1) * maxLightIntensity;
+				yield return new WaitForSeconds(Random.Range (0.01f,0.9f) );
 
 				lightComponent.intensity = 0;
 				yield return new WaitForSeconds(Random.Range (0.05f,0.3f) );

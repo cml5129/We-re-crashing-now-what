@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 444338}
   - 136: {fileID: 13644338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ GameObject:
   - 114: {fileID: 11444340}
   - 114: {fileID: 11444338}
   - 114: {fileID: 11444344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -58,8 +58,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144340}
-  m_LocalRotation: {x: 0, y: .70710659, z: 0, w: -.707106948}
-  m_LocalPosition: {x: -0, y: .649999976, z: -.0500000007}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 444338}
