@@ -31,10 +31,25 @@ public class Menu : MonoBehaviour {
 			GameOverMenu();
 			break;
 		case GameStates.WON:
-			GameOverMenu();
+			WinMenu();
+			break;
+		case GameStates.Running:
+			HUD();
 			break;
 		}
 		
+	}
+	void HUD() {
+		string cubes = "";
+		if(data.PlayerPowerCubes > 2) {
+			cubes = "ERROR";
+		}
+		if(data.PlayerPowerCubes > 1) {
+			cubes = "two";
+		} else if (data.PlayerPowerCubes > 0) {
+			cubes = "one";
+		}
+		GUI.Label(new Rect(10, 10, 200, 200), cubes);
 	}
 	void MainMenu() {
 		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);

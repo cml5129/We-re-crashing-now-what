@@ -23,7 +23,7 @@ public class TimeLeft : MonoBehaviour {
 			for(int i = 0; i < Queues.Length; i++) {
 				if (Queues[i] > TotalTimeLeft && !QueueReached[i]) {
 					Debug.Log("PLay audio queue:"+i);
-					data.audioManager.PlayAudio(StandardAudio,AudioQueue[i]);
+					data.audioManager.PlayAudio(AudioQueue[i],StandardAudio);
 					QueueReached[i] = true;
 				}
 			}
