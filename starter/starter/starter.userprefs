@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/RotateAlongX.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/SystemLightBehavior.cs">
     <Files>
-      <File FileName="Assets/scripts/FlickeringLight.cs" Line="25" Column="60" />
+      <File FileName="Assets/scripts/SystemLightBehavior.cs" Line="18" Column="1" />
+      <File FileName="Assets/scripts/FlickeringLight.cs" Line="1" Column="1" />
       <File FileName="Assets/scripts/RotateAlongX.cs" Line="9" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
