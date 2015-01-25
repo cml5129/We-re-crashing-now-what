@@ -1,0 +1,1130 @@
+fileFormatVersion: 2
+guid: ffe38c49624523b45af5ed99e60baed3
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone_009
+    100004: Chest
+    100006: ChestBone
+    100008: //RootNode
+    100010: Hand_L
+    100012: Hand_R
+    100014: Head
+    100016: HeadBone
+    100018: HeartClaw_L
+    100020: HeartClaw_R
+    100022: HeartClawBone_L
+    100024: HeartClawBone_R
+    100026: HipBone
+    100028: Hips
+    100030: LowerArm_L
+    100032: LowerArm_R
+    100034: LowerArmBone_L
+    100036: LowerArmBone_L_002
+    100038: LowerArmBone_R
+    100040: LowerFinger_L
+    100042: LowerFinger_R
+    100044: LowerFingerBone_R
+    100046: Neck
+    100048: NeckBone
+    100050: RollerBone
+    100052: ShoulderBone_L
+    100054: ShoulderBone_R
+    100056: Sphere_036
+    100058: Thumb_L
+    100060: Thumb_R
+    100062: ThumbBone_L
+    100064: ThumbBone_R
+    100066: Torso
+    100068: TorsoBone
+    100070: UpperArm_L
+    100072: UpperArm_R
+    100074: UpperArmBone_L
+    100076: UpperArmBone_L_002
+    100078: UpperArmBone_R
+    100080: UpperFinger_L
+    100082: UpperFinger_R
+    100084: UpperFingerBone_R
+    100086: UtilityHand
+    100088: WristBone_R
+    400000: Armature
+    400002: Bone_009
+    400004: Chest
+    400006: ChestBone
+    400008: //RootNode
+    400010: Hand_L
+    400012: Hand_R
+    400014: Head
+    400016: HeadBone
+    400018: HeartClaw_L
+    400020: HeartClaw_R
+    400022: HeartClawBone_L
+    400024: HeartClawBone_R
+    400026: HipBone
+    400028: Hips
+    400030: LowerArm_L
+    400032: LowerArm_R
+    400034: LowerArmBone_L
+    400036: LowerArmBone_L_002
+    400038: LowerArmBone_R
+    400040: LowerFinger_L
+    400042: LowerFinger_R
+    400044: LowerFingerBone_R
+    400046: Neck
+    400048: NeckBone
+    400050: RollerBone
+    400052: ShoulderBone_L
+    400054: ShoulderBone_R
+    400056: Sphere_036
+    400058: Thumb_L
+    400060: Thumb_R
+    400062: ThumbBone_L
+    400064: ThumbBone_R
+    400066: Torso
+    400068: TorsoBone
+    400070: UpperArm_L
+    400072: UpperArm_R
+    400074: UpperArmBone_L
+    400076: UpperArmBone_L_002
+    400078: UpperArmBone_R
+    400080: UpperFinger_L
+    400082: UpperFinger_R
+    400084: UpperFingerBone_R
+    400086: UtilityHand
+    400088: WristBone_R
+    4300000: Sphere_036
+    4300002: UtilityHand
+    4300004: Hand_R
+    4300006: Hand_L
+    4300008: Torso
+    4300010: Neck
+    4300012: HeartClaw_R
+    4300014: HeartClaw_L
+    4300016: UpperArm_R
+    4300018: LowerArm_R
+    4300020: Thumb_R
+    4300022: LowerFinger_R
+    4300024: UpperFinger_R
+    4300026: LowerFinger_L
+    4300028: UpperFinger_L
+    4300030: Thumb_L
+    4300032: LowerArm_L
+    4300034: UpperArm_L
+    4300036: Hips
+    4300038: Chest
+    4300040: Head
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: PoseLib
+    7400006: MoveForward
+    7400008: GroveIdle
+    7400010: MoveBack
+    7400012: Sleep/Wake
+    7400014: Push
+    7400016: Look
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Chest
+    13700002: Hand_L
+    13700004: Hand_R
+    13700006: Head
+    13700008: HeartClaw_L
+    13700010: HeartClaw_R
+    13700012: Hips
+    13700014: LowerArm_L
+    13700016: LowerArm_R
+    13700018: LowerFinger_L
+    13700020: LowerFinger_R
+    13700022: Neck
+    13700024: Sphere_036
+    13700026: Thumb_L
+    13700028: Thumb_R
+    13700030: Torso
+    13700032: UpperArm_L
+    13700034: UpperArm_R
+    13700036: UpperFinger_L
+    13700038: UpperFinger_R
+    13700040: UtilityHand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 244
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MoveForward
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GroveIdle
+      takeName: Default Take
+      firstFrame: 220
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MoveBack
+      takeName: Default Take
+      firstFrame: 46
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sleep/Wake
+      takeName: Default Take
+      firstFrame: 70
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Push
+      takeName: Default Take
+      firstFrame: 200
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Look
+      takeName: Default Take
+      firstFrame: 155
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RollerBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/HeartClawBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/NeckBone/HeadBone
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/LowerArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/ThumbBone_L
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_L/UpperArmBone_L/LowerArmBone_L/Bone_009/UpperArmBone_L_002
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/LowerFingerBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/ThumbBone_R
+        weight: 1
+      - path: Armature/RollerBone/HipBone/TorsoBone/ChestBone/ShoulderBone_R/UpperArmBone_R/LowerArmBone_R/WristBone_R/UpperFingerBone_R
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Hand_L
+        weight: 1
+      - path: Hand_R
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: HeartClaw_L
+        weight: 1
+      - path: HeartClaw_R
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: LowerArm_L
+        weight: 1
+      - path: LowerArm_R
+        weight: 1
+      - path: LowerFinger_L
+        weight: 1
+      - path: LowerFinger_R
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Sphere_036
+        weight: 1
+      - path: Thumb_L
+        weight: 1
+      - path: Thumb_R
+        weight: 1
+      - path: Torso
+        weight: 1
+      - path: UpperArm_L
+        weight: 1
+      - path: UpperArm_R
+        weight: 1
+      - path: UpperFinger_L
+        weight: 1
+      - path: UpperFinger_R
+        weight: 1
+      - path: UtilityHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
