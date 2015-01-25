@@ -49,16 +49,21 @@ public class Menu : MonoBehaviour {
 		} else if (data.PlayerPowerCubes > 0) {
 			cubes = "one";
 		}
-		GUI.Label(new Rect(10, 10, 200, 200), cubes);
+		GUI.Label(new Rect(10, 10, 500, 200), cubes);
+	}
+	void PrintTitle() {
+		GUIStyle myStyle = new GUIStyle(GUI.skin.label);
+		myStyle.fontSize = 50;
+		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title,myStyle);
 	}
 	void MainMenu() {
-		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
+		PrintTitle();
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Start")) {
 			StartGame();
 		}
 	}
 	void GameOverMenu() {
-		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
+		PrintTitle();
 		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "Game Over");
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
 			Application.Quit();
@@ -68,7 +73,7 @@ public class Menu : MonoBehaviour {
 		}
 	}
 	void WinMenu() {
-		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
+		PrintTitle();
 		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "Congratulations You Survived");
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
 			Application.Quit();
@@ -78,7 +83,7 @@ public class Menu : MonoBehaviour {
 		}
 	}
 	void PauseMenu() {
-		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title);
+		PrintTitle();
 		GUI.Label(new Rect((Screen.width / 2) - 25, 110, 200, 200), "PAUSED");
 		if (GUI.Button(new Rect((Screen.width / 2) - 50, Screen.height - 100 , 100, 50), "Quit")) {
 			Application.Quit();

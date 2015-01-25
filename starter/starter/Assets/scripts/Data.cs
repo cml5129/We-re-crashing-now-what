@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Data : MonoBehaviour {
-	public static string title = "Title";
+	public static string title = "Imminent Uncertainty";
 	public GameStates GameState;
 	public GameObject Player;
 	public int PlayerPowerCubes ;
