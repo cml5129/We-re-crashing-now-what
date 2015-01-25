@@ -14,7 +14,7 @@ public class FlickeringLight : MonoBehaviour {
 
 		while (true) {
 			lightComponent.intensity = 0;
-			yield return new WaitForSeconds(Random.Range(0.5f, 1.5f));
+			yield return new WaitForSeconds(Random.Range(0.2f, 0.7f));
 
 			int count = Random.Range (1,5);
 			while (count > 0) {
@@ -22,7 +22,7 @@ public class FlickeringLight : MonoBehaviour {
 				yield return new WaitForSeconds(Random.Range (0.01f,0.9f) );
 
 				lightComponent.intensity = 0;
-				yield return new WaitForSeconds(Random.Range (0.05f,0.3f) );
+				yield return new WaitForSeconds(Random.Range (0.01f,0.1f) );
 				--count;
 			}
 		}

@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 475850}
   - 114: {fileID: 11475850}
+  - 114: {fileID: 11428684}
   m_Layer: 0
   m_Name: Siren
   m_TagString: Untagged
@@ -156,6 +157,18 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11428684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890f8512fdf944dea819e485a10f0267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnWhenFixed: 0
 --- !u!114 &11475850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2938633d6ee914f3588f83dd2dbd391e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  axis: {x: 1, y: 0, z: 0}
   rotSpeed: 180
 --- !u!1001 &100100000
 Prefab:
