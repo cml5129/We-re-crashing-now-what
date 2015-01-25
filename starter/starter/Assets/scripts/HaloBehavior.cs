@@ -3,11 +3,11 @@ using System.Collections;
 
 public class HaloBehavior : MonoBehaviour {
 
-	void OnBroken () {
+	void SystemOff () {
 		GetComponent<Light>().color = Color.red;
 	}
 
-	void OnFix () {
+	void SystemOn () {
 		GetComponent<Light>().color = Color.green;
 	}
 }

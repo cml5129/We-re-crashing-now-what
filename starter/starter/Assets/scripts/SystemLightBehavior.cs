@@ -7,11 +7,11 @@ public class SystemLightBehavior : MonoBehaviour {
 	// unchecked for lights that should be on when system is broken
 	public bool OnWhenFixed = true;
 
-	void OnFix () {
+	void SystemOn () {
 		gameObject.SetActive(OnWhenFixed);
 	}
 
-	void OnBroken () {
+	void SystemOff () {
 		gameObject.SetActive(!OnWhenFixed);
 	}
 }

@@ -8,10 +8,20 @@ public class FlickeringLight : MonoBehaviour {
 	private float maxLightIntensity;
 	private Light lightComponent;
 
-	IEnumerator Start () {
+	void Awake () {
 		lightComponent = GetComponent<Light>();
 		maxLightIntensity = lightComponent.intensity;
+	}
 
+	void OnEnable () {
+		StartCoroutine("Flicker");
+	}
+
+	void OnDisable () {
+		StopCoroutine("Flicker");
+	}
+
+	IEnumerator Flicker () {
 		while (true) {
 			lightComponent.intensity = 0;
 			yield return new WaitForSeconds(Random.Range(0.2f, 0.7f));
