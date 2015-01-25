@@ -5,9 +5,15 @@ public class PowerCubeTrigger : MonoBehaviour {
 	public Data data;
 	public AudioClip audioClipOn;
 	public AudioClip audioClipOff;
+	public Material materialOn;
+	public Material materialOff;
+	public MeshRenderer renderer;
+	public AudioSource source;
 	// Use this for initialization
 	void Start () {
 		data = GameObject.Find("Data").GetComponent<Data>();
+		source = GetComponent<AudioSource>();
+		renderer = GetComponent<MeshRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -15,15 +21,21 @@ public class PowerCubeTrigger : MonoBehaviour {
 	
 	}
 	public void SystemOn() {
-		Debug.Log("system on");
 		if(audioClipOn != null) {
-			data.audioManager.PlayAudio(audioClipOn);
+			source.clip = audioClipOn;
+			source.Play();
+		}
+		if (materialOn != null) {
+			renderer.material = materialOn;
 		}
 	}
 	public void SystemOff() {
-		Debug.Log("system off");
 		if(audioClipOff != null) {
-			data.audioManager.PlayAudio(audioClipOff);
+			source.clip = audioClipOff;
+			source.Play();
+		}
+		if (materialOff != null) {
+			renderer.material = materialOff;
 		}
 	}
 }
