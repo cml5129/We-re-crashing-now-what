@@ -1,10 +1,22 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/SystemLightBehavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/MoveObjectFollowingPath.cs">
     <Files>
-      <File FileName="Assets/scripts/SystemLightBehavior.cs" Line="18" Column="1" />
-      <File FileName="Assets/scripts/FlickeringLight.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/RotateAlongX.cs" Line="9" Column="18" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js" Line="17" Column="3" />
+      <File FileName="Assets/scripts/Data.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/PowerCube.cs" Line="23" Column="3" />
+      <File FileName="Assets/scripts/RoomBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/TimeLeft.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/AudioManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/GameStates.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/AudioClips.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/AmbianceController.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/PowerCubeTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/QueueAudio.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MoveObjectFollowingPath.cs" Line="14" Column="1" />
+      <File FileName="Assets/scripts/RobotController.cs" Line="23" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
