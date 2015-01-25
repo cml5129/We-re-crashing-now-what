@@ -8,12 +8,10 @@ public class AudioManager : MonoBehaviour {
 	public Data data;
 
 	public void PlayAudio(AudioClip clip) {
-		source.clip = clip;
-		source.Play();
+		AudioQueue.Enqueue(clip);
 	}
 	public void PlayAudio(AudioClip clip1, AudioClip clip2) {
-		source.clip = clip1;
-		source.Play();
+		AudioQueue.Enqueue(clip1);
 		AudioQueue.Enqueue(clip2);
 
 	}

@@ -29,16 +29,29 @@ public class PowerCube : MonoBehaviour {
 					}
 				}
 				HasPowerCubes--;
+				var oldNeeds = NeedsPowerCubes;
 				NeedsPowerCubes++;
 				data.PlayerPowerCubes++;
 				timeSince = 0;
+				if (NeedsPowerCubes == 0 ){
+					BroadcastMessage("SystemOn");
+				} else if (oldNeeds == 0 && NeedsPowerCubes > 0) {
+					BroadcastMessage("SystemOff");
+				}
+
 			}else if(NeedsPowerCubes > 0 && data.PlayerPowerCubes > 0) {
 				GameObject gainedCube = Instantiate(GainedCube) as GameObject;
 				gainedCube.transform.parent = this.gameObject.transform;
 				data.PlayerPowerCubes--;
 				HasPowerCubes++;
+				var oldNeeds = NeedsPowerCubes;
 				NeedsPowerCubes--;
 				timeSince = 0;
+				if (NeedsPowerCubes == 0 ){
+					BroadcastMessage("SystemOn");
+				} else if (oldNeeds == 0 && NeedsPowerCubes > 0) {
+					BroadcastMessage("SystemOff");
+				}
 			}
 		}
 	}
