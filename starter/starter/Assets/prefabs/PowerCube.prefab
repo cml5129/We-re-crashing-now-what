@@ -44,6 +44,7 @@ GameObject:
   - 33: {fileID: 3359640}
   - 23: {fileID: 2359640}
   - 95: {fileID: 9559640}
+  - 114: {fileID: 11496524}
   m_Layer: 0
   m_Name: Fuse_Prop
   m_TagString: Untagged
@@ -174,6 +175,24 @@ MonoBehaviour:
   audioClipOff: {fileID: 8300000, guid: 0cd296e3a78f246aca4b78b2a0b54925, type: 3}
   materialOn: {fileID: 0}
   materialOff: {fileID: 0}
+  renderer: {fileID: 0}
+  source: {fileID: 0}
+--- !u!114 &11496524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e204b2aa322cd4a49bff25d9ea067ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  audioClipOn: {fileID: 0}
+  audioClipOff: {fileID: 0}
+  materialOn: {fileID: 2100000, guid: bfd5df77abbeb4305a622a96066a8912, type: 2}
+  materialOff: {fileID: 2100000, guid: 61fb457785a904a71a6effc81a5b0f80, type: 2}
   renderer: {fileID: 0}
   source: {fileID: 0}
 --- !u!1001 &100100000
