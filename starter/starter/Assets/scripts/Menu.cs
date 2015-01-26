@@ -54,7 +54,9 @@ public class Menu : MonoBehaviour {
 	void PrintTitle() {
 		GUIStyle myStyle = new GUIStyle(GUI.skin.label);
 		myStyle.fontSize = 50;
-		GUI.Label(new Rect((Screen.width / 2) - 25, 10, 200, 200), Data.title,myStyle);
+		GUI.Label(new Rect((Screen.width / 2) - 100, 10, 500, 200), Data.title,myStyle);
+		GUI.TextArea(new Rect((Screen.width / 2) - 100, 300, 400, 150), "Chris Spencer (www.sophiahatstudio.com; chris@chrisspencercreative.com)\nChris Lorenz <cml5129@gmail.com> https://lorenzgames.wordpress.com/ \nRobert Rood (therobertrood@gmail.com)\nVictor Brodin (vbrodin2@gmail.com)\nColby Welch <colwel@gmail.com>\nFrancis Joseph Serina (francis.serina@gmail; www.xeratol.com)");
+
 	}
 	void MainMenu() {
 		PrintTitle();

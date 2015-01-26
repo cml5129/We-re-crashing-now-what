@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 402624}
   - 82: {fileID: 8202624}
-  - 114: {fileID: 11402626}
+  - 114: {fileID: 11464162}
   m_Layer: 8
   m_Name: Music 1
   m_TagString: Untagged
@@ -201,7 +201,7 @@ AudioSource:
   m_GameObject: {fileID: 102624}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: d1c573dabb59f41cc839b2ed0b72f8ab, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ec113a4c47d2f481d915bb31ddd50230, type: 3}
   m_PlayOnAwake: 1
   m_Volume: .5
   m_Pitch: 1
@@ -393,22 +393,6 @@ MonoBehaviour:
   minimumY: -60
   maximumY: 60
   data: {fileID: 0}
---- !u!114 &11402626
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 102624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14297b4f4c2be47cb87bab41b0aa508c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  EngineOnToOff: {fileID: 0}
-  EngineOffToOn: {fileID: 0}
-  EngineOn: {fileID: 8300000, guid: a213cf6ea99a24e62919c13beb3bfbc0, type: 3}
-  EngineOff: {fileID: 8300000, guid: d1c573dabb59f41cc839b2ed0b72f8ab, type: 3}
 --- !u!114 &11402628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -516,6 +500,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numPowerCubes: 0
+--- !u!114 &11464162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74f0c1af7abb4f94af2e0181a3629f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  EngineOnToOff: {fileID: 0}
+  EngineOffToOn: {fileID: 0}
+  EngineOn: {fileID: 0}
+  EngineOff: {fileID: 0}
+  Low: {fileID: 8300000, guid: ec113a4c47d2f481d915bb31ddd50230, type: 3}
+  Medium: {fileID: 8300000, guid: 787cebf7f365f4109bd4b2c8ea1dda07, type: 3}
+  High: {fileID: 8300000, guid: f8b915e543328454caf4a2391a3dd7a6, type: 3}
+  transition1: {fileID: 8300000, guid: a2e227637426d4b3d8a74afb8a73c805, type: 3}
+  transition2: {fileID: 8300000, guid: 970835e96503c4ce2bd15415b65e9870, type: 3}
+  timeLeft: {fileID: 0}
+  startTransition1: 180
+  startTransition2: 60
+  tran1: 0
+  med: 0
+  high: 0
+  tran2: 0
 --- !u!124 &12402624
 Behaviour:
   m_ObjectHideFlags: 1
