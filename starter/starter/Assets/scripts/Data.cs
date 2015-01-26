@@ -12,6 +12,7 @@ public class Data : MonoBehaviour {
 	void Awake() {
 		DontDestroyOnLoad(transform.gameObject);
 		initialCubes = PlayerPowerCubes;
+		Screen.showCursor = false;
 	}
 
 	public void GameOver() {
