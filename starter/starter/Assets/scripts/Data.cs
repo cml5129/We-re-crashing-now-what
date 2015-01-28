@@ -9,10 +9,16 @@ public class Data : MonoBehaviour {
 	public AudioManager audioManager;
 	public PowerCube[] WinningPowerStations;
 	private int initialCubes;
+	public GameObject BackupPlayer;
 	void Awake() {
 		DontDestroyOnLoad(transform.gameObject);
 		initialCubes = PlayerPowerCubes;
 		Screen.showCursor = false;
+		Player = GameObject.FindGameObjectWithTag("Player");
+		if(Player == null) {
+			Instantiate(BackupPlayer);
+		}
+		audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 	}
 
 	public void GameOver() {

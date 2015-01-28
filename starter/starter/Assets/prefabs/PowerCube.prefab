@@ -86,7 +86,7 @@ Transform:
   m_GameObject: {fileID: 159640}
   m_LocalRotation: {x: 0, y: 0, z: .667257965, w: .744826794}
   m_LocalPosition: {x: .149000004, y: .0500000007, z: 0}
-  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 403982}
   m_RootOrder: 0
@@ -102,7 +102,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: e68d71b69eff64b2e95807f961ee8fbe, type: 2}
+  - {fileID: 2100000, guid: 61fb457785a904a71a6effc81a5b0f80, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -127,7 +127,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 1}
+  m_Size: {x: 2.5, y: 4, z: 4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &9559640
 Animator:

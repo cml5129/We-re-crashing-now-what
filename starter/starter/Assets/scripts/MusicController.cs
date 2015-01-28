@@ -25,6 +25,7 @@ public class MusicController : MonoBehaviour {
 	void Start () {
 		source = GetComponent<AudioSource>();
 		AudioQueue = new Queue();
+		timeLeft = GameObject.FindGameObjectWithTag("Timer").GetComponent<TimeLeft>();
 	}
 		
 		// Update is called once per frame
