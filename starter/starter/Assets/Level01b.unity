@@ -13792,7 +13792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 0}
-  HasPowerCubes: 2
+  HasPowerCubes: 0
   NeedsPowerCubes: 1
   GainedCube: {fileID: 155702, guid: 7b726ac7bb8ff4ba2b442caee68d508a, type: 2}
 --- !u!4 &648770661
@@ -16374,7 +16374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 0}
-  HasPowerCubes: 2
+  HasPowerCubes: 0
   NeedsPowerCubes: 1
   GainedCube: {fileID: 155702, guid: 7b726ac7bb8ff4ba2b442caee68d508a, type: 2}
 --- !u!65 &802973136
@@ -18034,7 +18034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 0}
-  HasPowerCubes: 3
+  HasPowerCubes: 0
   NeedsPowerCubes: 1
   GainedCube: {fileID: 155702, guid: 7b726ac7bb8ff4ba2b442caee68d508a, type: 2}
 --- !u!65 &874713515
@@ -23850,7 +23850,11 @@ Prefab:
     - target: {fileID: 11472898, guid: de080de5a3e4b4ff1a4fdbcdddf3c4fd, type: 2}
       propertyPath: BackupPlayer
       value: 
-      objectReference: {fileID: 102630, guid: 103b3146208424a8c9bc45a9f40d82d0, type: 2}
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472898, guid: de080de5a3e4b4ff1a4fdbcdddf3c4fd, type: 2}
+      propertyPath: GameState
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: de080de5a3e4b4ff1a4fdbcdddf3c4fd, type: 2}
   m_RootGameObject: {fileID: 1672148676}
@@ -24133,7 +24137,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11403982, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: HasPowerCubes
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 486410, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: m_LocalRotation.x
@@ -25164,7 +25168,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11403982, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: HasPowerCubes
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 459640, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: m_LocalRotation.x
@@ -33000,7 +33004,7 @@ MonoBehaviour:
   - {fileID: 802973135}
   - {fileID: 874713514}
   - {fileID: 648770660}
-  BackupPlayer: {fileID: 102630, guid: 103b3146208424a8c9bc45a9f40d82d0, type: 2}
+  BackupPlayer: {fileID: 0}
 --- !u!4 &1672148679
 Transform:
   m_ObjectHideFlags: 0
@@ -34392,7 +34396,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11403982, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: HasPowerCubes
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 459640, guid: 3ca51e44892654823a5ebb4fa6d3d763, type: 2}
       propertyPath: m_LocalRotation.x

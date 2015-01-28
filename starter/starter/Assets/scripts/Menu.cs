@@ -19,6 +19,7 @@ public class Menu : MonoBehaviour {
 		}
 	}
 	void OnGUI() {
+		Screen.showCursor = true;
 		switch (data.GameState)
 		{
 		case GameStates.MainMenu:
@@ -56,8 +57,8 @@ public class Menu : MonoBehaviour {
 		GUIStyle myStyle = new GUIStyle(GUI.skin.label);
 		myStyle.fontSize = 50;
 		GUI.Label(new Rect((Screen.width / 2) - 200, 10, 500, 200), Data.title,myStyle);
-		GUI.TextArea(new Rect((Screen.width / 2) - 150, 300, 350, 140), "Chris Spencer (www.sophiahatstudio.com; chris@chrisspencercreative.com)\nChris Lorenz <cml5129@gmail.com> https://lorenzgames.wordpress.com/ \nRobert Rood (therobertrood@gmail.com)\nVictor Brodin (vbrodin2@gmail.com)\nColby Welch <colwel@gmail.com>\nFrancis Joseph Serina (francis.serina@gmail; www.xeratol.com)");
-		GUI.TextArea(new Rect((Screen.width / 2) - 150, 450, 350, 100), "Controls\n Space or Z or Jump: Take Power Cube\n ctrl or Fire1 input: Put Power Cube");
+		GUI.TextArea(new Rect((Screen.width / 2) - 150, 150, 350, 140), "Chris Spencer (www.sophiahatstudio.com; chris@chrisspencercreative.com)\nChris Lorenz <cml5129@gmail.com> https://lorenzgames.wordpress.com/ \nRobert Rood (therobertrood@gmail.com)\nVictor Brodin (vbrodin2@gmail.com)\nColby Welch <colwel@gmail.com>\nFrancis Joseph Serina (francis.serina@gmail; www.xeratol.com)");
+		GUI.TextArea(new Rect((Screen.width / 2) - 150, 300, 350, 100), "Controls\n Space or Z or Jump: Take Power Cube\n ctrl or Fire1 input: Put Power Cube");
 
 	}
 	void MainMenu() {
