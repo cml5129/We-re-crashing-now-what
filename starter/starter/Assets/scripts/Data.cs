@@ -10,11 +10,13 @@ public class Data : MonoBehaviour {
 	public PowerCube[] WinningPowerStations;
 	private int initialCubes;
 	public GameObject BackupPlayer;
+	public Menu menu;
 	void Awake() {
 		DontDestroyOnLoad(transform.gameObject);
 		initialCubes = PlayerPowerCubes;
 		Screen.showCursor = false;
 		Player = GameObject.FindGameObjectWithTag("Player");
+		menu = GameObject.FindObjectOfType<Menu>();
 		if(Player == null) {
 			Instantiate(BackupPlayer);
 		}
@@ -22,14 +24,10 @@ public class Data : MonoBehaviour {
 	}
 
 	public void GameOver() {
-		Time.timeScale = 0;
-		PlayerPowerCubes = initialCubes;
-		GameState = GameStates.GameOver;
+		menu.EndGameLose();
 	}
 	public void Win() {
-		Time.timeScale = 0;
-		PlayerPowerCubes = initialCubes;
-		GameState = GameStates.WON;
+		menu.EndGameWin();
 	}
 	public void CheckWin() {
 		foreach(PowerCube Cube in WinningPowerStations) {

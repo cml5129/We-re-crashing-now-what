@@ -7,6 +7,8 @@ public class AudioManager : MonoBehaviour {
 	public Queue AudioQueue;
 	public Data data;
 
+	private bool paused;
+
 	public void PlayAudio(AudioClip clip) {
 		AudioQueue.Enqueue(clip);
 	}
@@ -19,6 +21,7 @@ public class AudioManager : MonoBehaviour {
 	void Start () {
 		source = AudioSources.GetComponent<AudioSource>();
 		AudioQueue = new Queue();
+		paused = false;
 	}
 	
 	// Update is called once per frame

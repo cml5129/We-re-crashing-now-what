@@ -6,6 +6,10 @@ TagManager:
   - ActiveStation
   - Timer
   - AudioManager
+  - MainMenu
+  - PlayButton
+  - QuitButton
+  - Information
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
