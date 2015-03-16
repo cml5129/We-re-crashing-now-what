@@ -24,7 +24,7 @@ public class PowerCube : MonoBehaviour {
 	void OnTriggerStay(Collider other) {
 		if((other.tag == "Player" || other.tag == "MainCamera") && (Input.GetButton("Jump") || Input.GetButton("Fire1")) && timeSince > deltaBetweenInput) {
 			Debug.Log("you have "+data.PlayerPowerCubes+" and this has "+HasPowerCubes + " and needs " + NeedsPowerCubes+ " Power Cubes");
-			if(Input.GetButton("Jump") && HasPowerCubes > 0 && data.PlayerPowerCubes < 2) {
+			if((Input.GetButton("Fire1") || Input.GetButton("Jump")) && HasPowerCubes > 0 && data.PlayerPowerCubes < 2) {
 				foreach (Transform child in transform){
 					if(child.gameObject.tag == GainedCube.tag){
 						Destroy(child.gameObject);
@@ -44,7 +44,7 @@ public class PowerCube : MonoBehaviour {
 					BroadcastMessage("SystemOff");
 				}
 
-			}else if(Input.GetButton("Fire1") && NeedsPowerCubes > 0 && data.PlayerPowerCubes > 0) {
+			}else if((Input.GetButton("Fire1")|| Input.GetButton("Jump")) && NeedsPowerCubes > 0 && data.PlayerPowerCubes > 0) {
 				GameObject gainedCube = Instantiate(GainedCube) as GameObject;
 				gainedCube.transform.parent = this.gameObject.transform;
 				data.PlayerPowerCubes--;
@@ -59,6 +59,10 @@ public class PowerCube : MonoBehaviour {
 				} else if (oldNeeds == 0 && NeedsPowerCubes > 0) {
 					BroadcastMessage("SystemOff");
 				}
+			}else if((Input.GetButton("Fire1")|| Input.GetButton("Jump")) && NeedsPowerCubes > 0 && data.PlayerPowerCubes == 0) {
+				Debug.Log("playing");
+				timeSince = 0;
+				data.PlayNeedsPower();
 			}
 		}
 	}
