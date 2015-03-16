@@ -22,7 +22,7 @@ public class Menu : MonoBehaviour {
 		data = GameObject.Find("Data").GetComponent<Data>();
 //		playButtonText = play.transform.GetChild(0).transform.GetChild(0).GetComponent<Text>();
 		quitButtonText = quitButton.gameObject.GetComponentInChildren<Text>();
-		if(data.GameState== GameStates.MainMenu ||data.GameState== GameStates.Paused) {
+		if(!data.oculusMode && (data.GameState== GameStates.MainMenu ||data.GameState== GameStates.Paused)) {
 			Time.timeScale = 0;
 			showMenu();
 			MainMenu();
@@ -31,7 +31,7 @@ public class Menu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Escape)) {
+		if (Input.GetKeyDown(KeyCode.Escape) && !data.oculusMode) {
 			Pause();
 		}
 	}
@@ -73,7 +73,7 @@ public class Menu : MonoBehaviour {
 	void PrintTitle(string text = "") {
 		titleText.text = Data.title;
 		information.text = text + "Credits\nChris Spencer (www.sophiahatstudio.com; chris@chrisspencercreative.com)\nChris Lorenz <cml5129@gmail.com> https://lorenzgames.wordpress.com/ \nRobert Rood (therobertrood@gmail.com)\nVictor Brodin (vbrodin2@gmail.com)\nColby Welch <colwel@gmail.com>\nFrancis Joseph Serina (francis.serina@gmail; www.xeratol.com)\n" +
-			"\nControls\n Space or Z or Jump: Take Power Cube\n ctrl or Fire1: Put Power Cube";
+			"\nControls\n ctrl or Fire1: Turn on system/ turn off system";
 		//quitButtonText.text = "Quit";
 		Debug.Log("Setting title:"+text);
 		quitButton.onClick.AddListener(() => {

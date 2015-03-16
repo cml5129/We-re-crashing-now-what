@@ -29,6 +29,7 @@ public class TimeLeft : MonoBehaviour {
 			}
 			if (TotalTimeLeft <= 0 ) {
 				data.GameOver();
+				Destroy(this.gameObject);
 			}
 		}
 	}void OnGUI() {
